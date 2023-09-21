@@ -3,7 +3,7 @@
   hosts: prod
   become: true
   vars_files:
-    - ./vars/secret-varialbes.yaml
+    - ./vars/secret-variables.yaml
   pre_tasks:
     - name: INSTALL DOCKER
       apt:
